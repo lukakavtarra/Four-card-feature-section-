@@ -42,8 +42,7 @@
         padding: 10px 0 0 31px;
     }
     .gridbox p {
-        
-        max-width: 298px;
-       
+        max-width: 287px;
+        padding: 0 13px 0 0px;
     }
 }
