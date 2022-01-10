@@ -4,8 +4,9 @@ body {
 
 }
 h1 {
+    color: hsl(234, 12%, 34%);
     text-align: center;
-    margin: 0 auto;
+    margin: 39px auto;
     max-width: 500px;
     font-weight: 200;
 }
