@@ -1,0 +1,81 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+
+}
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+    font-weight: 200;
+}
+p {
+    font-size: 15px;
+}
+.h1span {
+    font-weight: 600;
+}
+.aboutai {
+    text-align: center;
+    margin: 34px auto;
+    max-width: 658px;
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+}
+.gridbox {
+    display: grid;
+    justify-content:center;
+}
+.griditem1 {
+    border-style: solid none none none ;
+    grid-area: 2 / 1 / 4 / 2;
+    border-color: hsl(180, 62%, 55%);
+    box-shadow: -1px 20px 118px -47px grey;
+    margin: 0 20px 0 -30px;
+    padding: 10px 0 0 31px;
+    border-radius: 6px;
+}
+
+.griditem2 {
+    border-style: solid none none none ;
+    grid-area: 1 / 2 / 3 / 3;
+    border-color:  hsl(0, 78%, 62%);
+    box-shadow: -1px 20px 118px -47px grey;
+    padding: 10px 0 0 31px;
+    margin: 0 0 20px 0;
+    border-radius: 6px;
+}
+
+.griditem3 {
+    border-style: solid none none none ;
+    grid-area: 3 / 2 / 5 / 3;
+    border-color: hsl(34, 97%, 64%);
+    box-shadow: -1px 20px 118px -47px grey;
+    padding: 10px 0 0 31px;
+    border-radius: 6px;
+}
+
+.griditem4 {
+    border-style: solid none none none ;
+    grid-area: 2 / 3 / 4 / 4;
+    border-color: hsl(212, 86%, 64%);
+    box-shadow: -1px 20px 118px -47px grey;
+    margin: 0 0 0 20px;
+    padding: 10px 0 0 31px;
+    border-radius: 6px;
+}
+.gridicon {
+    float: right;
+    margin: 12px 23px;
+}
+
+/*.positionfix {
+    position: relative;
+    top: 26px;
+}*/
+.gridbox p {
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    max-width: 344px;
+    font-size: 13px;
+}

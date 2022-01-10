@@ -1,0 +1,49 @@
+@media only screen and (max-width:700px) {
+    .gridbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .griditem1 {
+        border-style: solid none none none ;
+        grid-area: 2 / 1 / 4 / 2;
+        border-color: hsl(180, 62%, 55%);
+        box-shadow: -1px 20px 118px -47px grey;
+        margin: 30px;
+        padding: 10px 0 0 31px;
+        
+    }
+    
+    .griditem2 {
+        border-style: solid none none none ;
+        grid-area: 1 / 2 / 3 / 3;
+        border-color:  hsl(0, 78%, 62%);
+        box-shadow: -1px 20px 118px -47px grey;
+        padding: 10px 0 0 31px;
+        margin: 30px;
+        
+    }
+    
+    .griditem3 {
+        border-style: solid none none none ;
+        grid-area: 3 / 2 / 5 / 3;
+        border-color: hsl(34, 97%, 64%);
+        box-shadow: -1px 20px 118px -47px grey;
+        margin: 30px;
+        padding: 10px 0 0 31px;
+    }
+    
+    .griditem4 {
+        border-style: solid none none none ;
+        grid-area: 2 / 3 / 4 / 4;
+        border-color: hsl(212, 86%, 64%);
+        box-shadow: -1px 20px 118px -47px grey;
+        margin: 30px;
+        padding: 10px 0 0 31px;
+    }
+    .gridbox p {
+        
+        max-width: 298px;
+       
+    }
+}
